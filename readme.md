@@ -34,3 +34,7 @@ def render(context)
             text = super
             "<div markdown=\"1\">\n #{text} \n</div>"
 ```
+
+## Disclaimer
+
+Experimental. Absolutely no guarantees.
