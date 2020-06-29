@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name = 'jekyll-div-markdown'
-  s.version            = '0.0.3'
+  s.version            = '0.0.4'
   s.authors            = ['Amit Seal Ami']
   s.email              = 'lordamit@gmail.com'
   s.date               = '2020-06-29'
@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.files              = ['lib/jekyll-div-markdown.rb']
   s.require_paths      = ['lib']
   
-  s.add_dependency       'jekyll', '~> 3.0.0'
+  s.add_dependency       'jekyll', '~> 3.6.3'
   s.add_development_dependency 'bundler', '~> 1.10'
   s.add_dependency 'kramdown', '~> 2.1'
 end
